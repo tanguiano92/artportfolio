@@ -7,7 +7,7 @@ let slider;
 let xoff = 0;
 
 function setup() {
-  createCanvas(700, 550);
+  createCanvas(900, 600);
   angleMode(DEGREES);
    background(100);
 
