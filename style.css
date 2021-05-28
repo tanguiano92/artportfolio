@@ -12,3 +12,39 @@
   background: magenta;
   color: white;
 }
+* {
+margin:0;
+padding:0;
+}
+body {
+  background-color: Black;
+  margin: 0;
+  overflow: 0;
+}
+
+#animation {
+  border: none:
+  position: fixed;
+  z-index: -999;
+  width:100vw;
+  height:100vh;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: Blue;
+}
+
+.pictures {
+  width:80vw;
+}
+
+#navigation li {
+  font-size: 13pt;
+  float: left;
+  padding:15px;
+  list-style-type: none;
+  background-color: green;
+  margin-right: 20px;
+}
