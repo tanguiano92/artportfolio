@@ -9,7 +9,7 @@ let xoff = 0;
 function setup() {
   createCanvas(900, 600);
   angleMode(DEGREES);
-   background(127);
+   background(0);
 
   button = createButton('save');
   button.mousePressed(saveLace);
@@ -25,7 +25,7 @@ function saveLace(){
 }
 
 function clearCanvas(){
- background(120);
+ background(0);
 }
 
 function draw() {
