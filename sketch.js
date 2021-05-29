@@ -9,14 +9,14 @@ let xoff = 0;
 function setup() {
   createCanvas(900, 600);
   angleMode(DEGREES);
-   background(100);
+   background(127);
 
   button = createButton('save');
   button.mousePressed(saveLace);
   button = createButton('clear');
   button.mousePressed(clearCanvas);
   slider = createSlider(1, 32, 4, 0.1);
-  //colorMode(HSB, 255, 255, 255);
+  colorMode(HSB, 255, 255, 255);
 }
 
 
@@ -42,9 +42,10 @@ function draw() {
   let pmy = pmouseY - height/2;
 
  if(mouseIsPressed){
-   let hue = map(sin(xoff), -1, 1, 0, 225);
-   xoff += 2;
-  stroke(hue, 100);
+  // let hue = map(sin(xoff), -1, 1, 0, 225);
+  let hue= noise(xoff) * 255;
+   xoff += 0.01;
+  stroke(hue, 255, 255, 100);
     let angle = 360/symmetry;
 
     // the for loop will make the below action repeat six times.
