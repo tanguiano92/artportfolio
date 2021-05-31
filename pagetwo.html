@@ -5,19 +5,64 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="sub.css">
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-family: "Raleway", sans-serif
+      }
+      h2{
+        color: #13edc9;
+      }
+
+      .w3-third img {
+        margin-bottom: -6px;
+        opacity: 0.8;
+        cursor: pointer
+      }
+
+      .w3-third img:hover {
+        opacity: 1
+      }
+    </style>
+
+    <body class="w3-black w3-content" style="max-width:1600px">
+
+      <!-- Sidebar/menu -->
+      <nav class="w3-sidebar w3-bar-block w3-light-blue w3-animate-left w3-text-white w3-collapse w3-top w3-center" style="z-index:3;width:250px;font-weight:bold" id="mySidebar"><br>
+        <img src="images/My Name Logo.png" alt="TMA Arts" width="170" height="160">
+        <h3 class="w3-padding-64 w3-center"><b>TONI<br>M.<br>ANGUIANO</b></h3>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+        <a href="#"><a href="index.html">RETURN TO MAIN</a><br>
+        <a href="#"><a href="pagetwo.html">LACE MAKER ILLUSTRATOR</a><br>
+          <a href="#"><a href="pagethree.html">PARTICLE GALAXY</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+      </nav>
+
 
   </head>
   <body>
-      <center><a href="index.html">Return to Main</a></li></center>
-    <script src="sketch.js"></script>
+
+      <center><h2>LACE PATTERN MAKER: Anti-Anxiety Illustration Game</h2></center>
+
+
+   <script type="text/javascript" src="sketch.js"></script>
+   <div id="sketch"></div>
     <br>
-    <audio controls autoplay loop>
+    <center><audio controls autoplay>
   <source src="audio/Fur.mp3.ogg" type="audio/ogg">
   <source src="audio/Fur.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
-</audio>
+</audio></center>
   </body>
-  <br><br><p>Use mouse to create a lace pattern! This piece was created as a method for destressing and to promote anti-anxiety.<br>
-     When you are finished, you can save and download your work by pressing "Save" at the bottom of the page. Use the scrub bar<br>
-    to change the stroke to bold or fine.</p><br><br>
 </html>

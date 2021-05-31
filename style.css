@@ -48,3 +48,13 @@ h2 {
   background-color:#ff63e0;
   margin-right: 20px;
 }
+
+canvas {
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 65%;
+  overflow: hidden;
+}
