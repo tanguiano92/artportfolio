@@ -51,10 +51,10 @@ h2 {
 
 canvas {
   position: absolute;
-  left: 55%;
-  top: 55%;
+  left: 54%;
+  top: 54%;
   transform: translate(-50%, -50%);
   width: 60%;
-  height: 65%;
-  overflow: hidden;
+  height: 62%;
+  overflow: auto;
 }
