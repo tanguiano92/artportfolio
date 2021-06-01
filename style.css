@@ -48,13 +48,18 @@ h2 {
   background-color:#ff63e0;
   margin-right: 20px;
 }
+div
+{
+    object-position: center;
 
+}
 canvas {
   position: absolute;
-  left: 54%;
-  top: 54%;
+  left: 55%;
+  top: 55%;
   transform: translate(-50%, -50%);
-  width: 60%;
-  height: 62%;
-  overflow: auto;
+  width: 64%;
+  height: 64%;
+  overflow: hidden;
+
 }
