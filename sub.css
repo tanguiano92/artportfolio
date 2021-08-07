@@ -28,9 +28,8 @@ h2 {
 
 #nav li {
   font-size: 13pt;
-  float: left;
-  padding:15px;
+  float: center;
+  padding: 5px;
   list-style-type: none;
-  background-color: green;
-  margin-right: 20px;
+  margin-right: 10px;
 }
