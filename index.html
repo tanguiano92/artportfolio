@@ -1,27 +1,106 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Toni Anguiano  |  Portfolio</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="cover.css">
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body{
-  background-color: black;
-}
-
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-heart,.fa-comment {font-size:200px}
 </style>
 <body>
-  <div id="imageContainer">
-    <center><img src="images/Logo and Avatar.jpg"/></center>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="portfolio.html" class="w3-bar-item w3-button w3-padding-large w3-white">Artwork</a>
+    <a href="documents/Toni_Anguiano_CV_2021.pdf" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cirriculum Vitae</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"></a>
   </div>
 
-<h1>Toni Anguiano</h1>
-
-<div id="buttonContainer">
-   <button id="buttonOne"><a href="portfolio.html">OPEN</a></button>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-blue w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="portfolio.html" class="w3-bar-item w3-button w3-padding-large">Artwork</a>
+    <a href="documents/Toni_Anguiano_CV_2021.pdf" class="w3-bar-item w3-button w3-padding-large">Curriculum Vitae</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large"></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large"></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large"></a>
+  </div>
 </div>
+
+<!-- Header -->
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">TONI ANGUIANO</h1>
+  <p class="w3-xlarge"></p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"></button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>The Artist</h1>
+      <h5 class="w3-padding-32">Toni M. Anguiano</h5>
+
+      <p class="w3-text-dark-grey">Toni Anguiano is a self-taught and school-taught studio/digital artist based in the San Francisco Bay Area of California. In December 2020, She graduated from San Jose State University where she earned
+        a BFA in Digital Media Art and graduated at the top of her class, earning the title of President's Scholar for her expectional academic excellence. Digtal media art has become her primary method to create
+        her work since graduating. Her work and style is influenced by various topics and themes from history, literature to film, music, popculture, true crime, mythology and theology. Toni is currently working aside
+        as a freelance digital artist and content moderator for a popular facebook fashion and music group, EMO ARMY, where she assists in promoting member engagement, discovering and adding intriguing content,
+        encourage interaction, and social
+        media management.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="images/Me2.png" alt="Me" class="w3-image w3-padding-32" width="400" height="450">
+      <i class="fa fa-heart w3-padding-64 w3-text-blue"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>My Story</h1>
+      <h5 class="w3-padding-32">I am more than words on a resume.</h5>
+
+      <p class="w3-text-dark-grey">Coming Soon.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="images/Logo and Avatar.jpg" class="w3-image w3-padding-64" width="600" height="420">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <a href="https://www.instagram.com/tma_arts/" i class="fa fa-instagram w3-hover-opacity"></i><br>
+    <a href="https://www.linkedin.com/in/toni-anguiano-156b1a13b/" i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
 </body>
 </html>
